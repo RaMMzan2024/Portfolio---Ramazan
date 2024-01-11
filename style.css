@@ -372,7 +372,8 @@ column-gap: 19px;
     line-height: 140%;
     }
     .reviews_item{
-        width: 710px;;
+        width: 710px;
+        display: none;
     }
     .reviews_author{
         border-top: 2px solid #F7F8FD;
@@ -388,15 +389,49 @@ column-gap: 19px;
        width: 80px;
        height: 80px;
     }
+    .reviews_item---active{
+        display: block;
+    }
+    .reviews_container{
+        position: relative;
+    }
+    .reviews_slider-btn{
+        position: absolute;
+        top: 50px;
+        border-radius: 30px;
+        width: 50px;
+height: 50px;
+border: none;
+background:  #F7F8FD;
+    }
+    .reviews_slider-btn--next{
+        right: 70px;
+    }
+    .reviews_slider-btn--prev{
+        right: 0;
+    }
+    .reviews_slider-btn--active{
+background:  #446DF6;
+    }
 
 
 
 
 
 /* FOOTER */
+.page-footer{
+    background-color: #141B41;
+    padding-top: 39px;
+    padding-bottom: 39px;
+}
 .footer-menu_link{
     color: #E9ECF5;
     font-family: GT Eesti Pro Display;
     font-size: 18px;
     line-height: 140%; 
+    }
+    .page-footer_container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
