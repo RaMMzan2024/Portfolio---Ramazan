@@ -1,16 +1,219 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="page">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="page__body">
+  <header class="page_header page-header">
+    <div class="container page-header_container">
+    <a class="page_header_logo"  href="#" class="logo">
+       <img src="icons/logo.svg" alt="">
+    </a>
+    <nav class="page-header_nav">
+        <ul class="page-header_menu main-menu">
+            <li class="main-menu_item">
+                <a class="main-menu_link" href="">Как использовать</a>
+            </li>
+        
+      
+            <li class="main-menu_item">
+                <a class="main-menu_link" href="">Получить доступ</a>
+            </li>
+       
+        
+            <li class="main-menu_item">
+                <a class="main-menu_link" href="">Скачать</a>
+            </li>
+        
+       
+            <li class="main-menu_item">
+                <a class="main-menu_link" href="">Отзывы</a>
+            </li>
+        </ul>
+    </nav>
+        
+        <button class="page-header_bth  bth-transparent" type="button">
+            Получить доступ</button>
+        </div>
+  </header>
 
-<div id="score">Очки: 0</div>
-<div id="game-board"></div>
-    
-    <script src="index.js"></script>
+
+
+  <main class="page__main">
+    <section class="hero">
+        <div class="container">
+    <h1 class="section-title hero_title">
+        Поиск ближайшей свободной автомойки и бронирование
+        на удобное время.
+    </h1>
+    <p class="hero__text">
+        Мы поможем сохранить ваше время для более интересных занятий, чем стоять в очереди.
+    </p>
+    <button class="hero__btn btn-blue" type="button">Получить доступ</button>
+    <img class="hero_img" src="img/hero_img.jpg" alt="" width="730" height="700" />
+</div>
+   </section>
+
+
+
+   <section class="start-steps">
+    <div class="container">
+    <img class="start-steps_img" src="img/start-steps_img-1.png" alt="" width="450" height="675" />
+    <h2 class="section-title start-steps_title">Быстрый старт:</h2>
+    <ul class="start-steps_list steps-list">
+        <li class="steps-list_item step">
+            <img class="steps-list_icon" src="icons/steps-list-icon_1.svg" alt="">
+            <p class="steps-list_title">Скачай и зарегистрируйся</p>
+            <p class="steps-list_desc">Наше приложение доступно в Apple Store и Google Play</p>
+        </li>
+        <li class="steps-list_item step">
+            <img  class="steps-list_icon" src="icons/steps-list-icon_2.svg" alt="">
+            <p class="steps-list_title">Выбери ближайшую автомойку</p>
+            <p class="steps-list_desc">Из свободных поблизости или оставь заказ на удобное время</p>
+        </li>
+        <li class="steps-list_item step">
+            <img  class="steps-list_icon" src="icons/steps-list-icon_3.svg" alt="">
+            <p class="steps-list_title">Выбери дополнительные услуги</p>
+            <p class="steps-list_desc">Можешь их добавить к своему основному заказу</p>
+        </li>
+        <li class="steps-list_item step">
+            <img  class="steps-list_icon" src="icons/steps-list-icon_4.svg" alt="">
+            <p class="steps-list_title">Оплати внутри приложения </p>
+            <p class="steps-list_desc">Бесконтактная оплата внутри приложения и прозрачные цены</p>
+        </li>
+    </ul>
+</div>
+   </section>
+
+
+
+   <section class="excellents">
+    <div class="container">
+    <h2 class="section-title section-title--small excellents_title">Стань нашим партнером и начни зарабатывать: </h2>
+    <p class="excellents_subtitle"> Автоматизируй свой бизнес вместе с нами. Подключись к нашей системе бронирования,
+         что бы получать новых клиентов и распределить нагрузку равномерно на весь день. Мы предоставляем удобные 
+        инструменты для формирования отчетов в несколько кликов и многое другое.
+    </p>
+    <ul class="excellents_list">
+        <li class="excellents_item excellents_item--history">Просмотривайте
+            историю заказа</li>
+        <li class="excellents_item excellents_item--report">Создание отчета
+            неделя/месяц/год </li>
+        <li class="excellents_item excellents_item--callback">Обратная связь
+            от клиентов</li>
+        <li class="excellents_item excellents_item--quality-controll">Контроль качества
+            работы сотрудников</li>
+        <li class="excellents_item excellents_item--payment">Бесконтактная
+            оплата работы</li>
+    </ul>
+    <button class="excellents_btn btn btn-blue" type="button">
+        Стать партнером
+    </button>
+</div>
+   </section>
+
+
+
+   <section class="apps">
+    <div class="container apps_container">
+    <h2 class="section-title section-title--light apps_title">
+   Хватит тратить свое
+   время в очередях
+    </h2>
+    <p class="apps_subtitle">
+        Приложение скоро будет доступно для бета
+        тестирования в AppStore и Google Play
+    </p>
+    <ul class="apps_list">
+        <li class="apps_item">
+            <a class="apps_link" href="">
+            <img class="apps_icon" src="img/apps_icon_1.png" alt="" width="166" height="54" />
+        </a></li>
+
+        <li class="apps_item">
+            <a class="apps_link" href="">
+            <img class="apps_icon" src="img/apps-icon_2.png" alt="" width="166" height="54" />
+        </a></li>
+    </ul>
+    <img class="apps_img" src="img/Mask Group.png" alt="" width="522" height="438" />
+</div>
+   </section>
+
+
+
+   <section class="reviews">
+    <div class="container">
+    <h2 class="section-title reviews_title">
+        Отзывы о приложении
+    </h2>
+    <article class="reviews_item"></article>
+    <p class="reviews_text">
+        Таким образом консультация с широким активом влечет за собой
+        процесс внедрения и модернизации направлений прогрессивного развития.
+        Разнообразный и богатый опыт сложившаяся структура организации обеспечивает широкому кругу (специалистов)
+        участие в формировании модели развития.
+    </p>
+
+<footer class="reviews_author">
+    <img class="reviews_author-img" src="" alt="" width="80" height="80" />
+    <p class="reviews_author-name">John Doe</p>
+    <p class="reviews_author-position">Водитель</p>
+</footer>
+</article>
+
+<button
+ class="reviews_slider-btn reviews_slider-btn--next"
+  type="button">
+  <
+</button>
+<button
+ class="reviews_slider-btn reviews_slider-btn--prev" 
+ type="button">
+ >
+</button>
+</div>
+   </section>
+</main>
+
+
+
+  <footer class="page_footer page-footer">
+    <div class="container">
+    <a class="page-footer_logo" href="#">
+        Get Wash
+    </a>
+    <nav class="page-footer_nav">
+        <ul class="footer-menu">
+            <li class="footer-menu_item">
+                <a class="footer-menu_link" href="">Как использовать</a>
+            </li>
+        </ul>
+        <ul>
+            <li class="footer-menu_item">
+                <a class="footer-menu_link" href="">Получить доступ</a>
+            </li>
+        </ul>
+        <ul>
+            <li class="footer-menu_item">
+                <a class="footer-menu_link" href="">Скачать</a>
+            </li>
+        </ul>
+        <ul>
+            <li class="footer-menu_item">
+                <a class="footer-menu_link" href="">Отзывы</a>
+            </li>
+        </ul>
+        
+        <button class="page-footer_btn btn-transparent" type="button">Получить доступ</button>
+    </nav>
+</div>
+  </footer>
+
+
+
+
 </body>
 </html>
