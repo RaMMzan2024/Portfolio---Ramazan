@@ -301,19 +301,19 @@ background-repeat: no-repeat;
 
 /* APPS */
 .apps_subtitle{
-color: #E9ECF5;
-font-family: GT Eesti Pro Display;
-font-size: 18px;
-font-style: normal;
-}
-.apps{
-padding-top: 115px;
-padding-bottom: 70px;
-}
-.apps_container{
-    border-radius: 20px;
-    background: rgba(120, 150, 248, 0.85);
-}
+    color: #E9ECF5;
+    font-family: GT Eesti Pro Display;
+    font-size: 18px;
+    font-style: normal;
+    }
+    .apps{
+    padding-top: 115px;
+    padding-bottom: 70px;
+    }
+    .apps_container{
+        border-radius: 20px;
+        background: rgba(120, 150, 248, 0.85);
+    }
 
 
 
