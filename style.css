@@ -266,6 +266,7 @@ background-position: center;
 background-repeat: no-repeat;
 }
 
+
 .excellents_item--history::before{
     background-image: url(img/Document-1.svg);
 }    
@@ -281,7 +282,6 @@ background-repeat: no-repeat;
 .excellents_item--payment::before{
     background-image: url(img/Wallet2-5.svg);
 }
-
 
 
 
