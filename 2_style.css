@@ -4,7 +4,7 @@ body{
 }
 .signup-box{
     width: 360px;
-    height: 620px;
+    height: 570px;
     margin: auto;
     background-color: white;
     border-radius: 3px;
@@ -30,7 +30,7 @@ form input{
     padding: 8px;
     border: none;
     border: 1px solid grey;
-    border-bottom: 6px;
+    /* border-bottom: 6px; */
     outline: none;
 }
 input[type="button"]{
