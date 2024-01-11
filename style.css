@@ -22,6 +22,7 @@ color:  #141B41;
 font-family: GT Eesti Pro Display;
 font-size: 40px;
 font-weight: 400;
+margin-top: 0;
 }
 .section-title--small{
     font-style: 32px;
@@ -341,13 +342,22 @@ column-gap: 19px;
 
 
 /* REWIEWS */
+.reviews{
+    padding-top: 70px;
+    padding-bottom: 140px;
+}
+.reviews_title{
+   margin-bottom: 17px;
+}
 .reviews_text{
     color: var(--72727-e, #72727E);
     font-family: GT Eesti Pro Display;
     font-size: 18px;
     font-style: normal;
     font-weight: 350;
-    line-height: 140%; /* 25.2px */
+    line-height: 140%; 
+    margin-top: 0;
+    margin-bottom: 30px;
     }
     .reviews_author-name{
         color:  #141B41;
@@ -361,6 +371,27 @@ column-gap: 19px;
     font-size: 18px;
     line-height: 140%;
     }
+    .reviews_item{
+        width: 710px;;
+    }
+    .reviews_author{
+        border-top: 2px solid #F7F8FD;
+        padding-top: 29px;
+
+        display: grid;
+        grid-template-columns: 80px 1fr;
+        column-gap: 30px;
+    }
+    .reviews_author-img{
+       border-radius: 50%;
+       grid-row: span 2;
+       width: 80px;
+       height: 80px;
+    }
+
+
+
+
 
 /* FOOTER */
 .footer-menu_link{
