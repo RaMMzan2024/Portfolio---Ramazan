@@ -344,8 +344,8 @@ background-repeat: no-repeat;
 
 /* FOOTER */
 .footer-menu_link{
-color: #E9ECF5;
-font-family: GT Eesti Pro Display;
-font-size: 18px;
-line-height: 140%; 
-}
+    color: #E9ECF5;
+    font-family: GT Eesti Pro Display;
+    font-size: 18px;
+    line-height: 140%; 
+    }
