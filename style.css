@@ -313,6 +313,12 @@ background-repeat: no-repeat;
     .apps_container{
         border-radius: 20px;
         background: rgba(120, 150, 248, 0.85);
+        position: relative;
+    }
+    .apps_img{
+        position: absolute;
+        right: 80px;
+        bottom: 0;
     }
 
 
