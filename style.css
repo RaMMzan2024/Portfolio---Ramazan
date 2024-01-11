@@ -1,3 +1,4 @@
+
 *,
 *::after,
 *::before{
@@ -420,18 +421,46 @@ background:  #446DF6;
 
 /* FOOTER */
 .page-footer{
-    background-color: #141B41;
-    padding-top: 39px;
-    padding-bottom: 39px;
+background-color: #141B41;
+padding-top: 39px;
+padding-bottom: 39px;
 }
 .footer-menu_link{
-    color: #E9ECF5;
+color: #E9ECF5;
+font-family: GT Eesti Pro Display;
+font-size: 18px;
+line-height: 140%; 
+}
+.page-footer_container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.footer-menu{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+   list-style-type: none;
+   width: 540px;
+   height: 26px;
+}
+.page-footer_nav{
+    display: flex;
+}
+
+
+
+
+.page-footer_btn{
+    color: #446DF6;
     font-family: GT Eesti Pro Display;
-    font-size: 18px;
-    line-height: 140%; 
-    }
-    .page-footer_container{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    border-radius: 6px;
+    border: 1px solid  #E9ECF5;
+    padding: 14px 25px;
+    font-family: inherit;
+    background-color: transparent;
+    cursor: pointer;
+}
