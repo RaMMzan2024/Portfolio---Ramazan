@@ -64,3 +64,14 @@ p{
     border-radius: 3px;
     background-color: white;
 }
+
+.Login_button{
+padding: 20px 30px;
+margin-top: 20px;
+border: none;
+background-color: #49c1a2;
+color: white;
+font-size: 18px;
+text-decoration: none;
+border-radius: 50%;
+}

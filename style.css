@@ -68,17 +68,43 @@ img{
 }
 
 .btn-blue{
-    color:  #EEE;
-    font-family: GT Eesti Pro Display;
-    font-size: 18px;
-    font-weight: 500;
-    border-radius: 6px;
-    background: #446DF6;
-    padding: 18px 51px;
+    border-radius: 4px;
+    background-color: #5ca1e1;
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-size: 32px;
+    padding: 16px;
+    width: 220px;
+    transition: all 0.5s;
     cursor: pointer;
+    margin: 36px;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+  
 }
-
-
+.btn-blue{
+    cursor: pointer;
+    position: relative;
+    transition: 0.5s;
+}
+.btn-blue:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;  
+    top: 14px;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+.btn-blue:hover{
+    padding-right: 24px;
+    padding-left:8px;
+  }
+  
+.btn-blue:hover:after {
+    opacity: 1;
+    right: 10px;
+  }
 /* HEADER */
 .main-menu_link{
     color: #72727E;
@@ -236,11 +262,14 @@ text-align: center;
     margin-top: 0;
     margin-bottom: 60px;
     list-style-type: none;
-
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 30px;
 }
+
+
+
+
 .excellents_item{
 border-radius: 10px;
 background-color: #FFF;
@@ -268,35 +297,50 @@ background-position: center;
 background-repeat: no-repeat;
 }
 
-
 .excellents_item--history::before{
     background-image: url(img/Document-1.svg);
-}    
+}
+.excellents_item--history:hover{
+    background: #446DF6;
+    color: white;
+    transition: 0.8s;
+}
+
 .excellents_item--report::before{
     background-image: url(img/Calendar-2.svg);
 }
+.excellents_item--report:hover{
+    background: #446DF6;
+    color: white;
+    transition: 0.8s;
+}
+
 .excellents_item--callback::before{
     background-image: url(img/Chat-3.svg);
 }
+.excellents_item--callback:hover{
+    background: #446DF6;
+    color: white;
+    transition: 0.8s;
+}
+
 .excellents_item--quality-controll::before{
     background-image: url(img/Star-4.svg);
 }
+.excellents_item--quality-controll:hover{
+    background: #446DF6;
+    color: white;
+    transition: 0.8s;
+}
+
 .excellents_item--payment::before{
     background-image: url(img/Wallet2-5.svg);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
+.excellents_item--payment:hover{
+    background: #446DF6;
+    color: white;
+    transition: 0.8s;
+}
 
 
 
@@ -450,17 +494,25 @@ align-items: center;
 
 
 .page-footer_btn{
-    color: #446DF6;
-    font-family: GT Eesti Pro Display;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    border-radius: 6px;
-    border: 1px solid  #E9ECF5;
-    padding: 14px 25px;
-    font-family: inherit;
     background-color: transparent;
-    cursor: pointer;
+    border: 3px solid #00d7c3;
+    border-radius: 50px;
+    -webkit-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+    color: #00d7c3;
+}
+.page-footer_btn:hover{
+    box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
+    border: 3px solid #00d7c3
+}
+
+.footer-menu_link{
+    color: white;
+}
+.footer-menu_link:hover{
+    color: #446DF6;
+    font-weight: 200;
+    transition: 0.5s;
 }
 
 
@@ -469,6 +521,3 @@ align-items: center;
 
 
 
-
-
-/* 2_INDEX.HTML */
